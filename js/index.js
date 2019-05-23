@@ -395,7 +395,7 @@ var app = new Vue({
           }
         )
       } else {
-        this.headerTitle = _config['owner'] + '的个人博客'
+        this.headerTitle = _config['blog_name'] + '的个人博客'
 
         // 当前页
         var pID = this.$route.params.pageID || 1
