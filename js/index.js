@@ -487,7 +487,7 @@ var app = new Vue({
       this.gitment = new Gitment({
         // id: '页面 ID', // 可选。默认为 location.href
         owner: 'lihuate',
-        repo: 'GitalkG',
+        repo: 'lihuate.github.io',
         title: pageTitle,
         oauth: {
           client_id: _config['client_id'],
